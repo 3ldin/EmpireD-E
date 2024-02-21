@@ -5,7 +5,9 @@ import Footer from '../components/Footer';
 
 const GalleryPage = () => {
   const images = [
+    
     '/images/ash1.jpeg',
+    '/images/outside1.jpeg',
     '/images/IMG1.jpeg',
     '/images/IMG2.jpeg',
     '/images/IMG4.jpeg',
@@ -33,6 +35,7 @@ const GalleryPage = () => {
     '/images/shower.jpeg',
     '/images/IMG25.jpeg',
     '/images/IMG26.jpeg',
+    '/images/outside2.jpeg',
     '/images/IMG28.jpeg',
     '/images/IMG29.jpeg',
     '/images/IMG30.jpeg',

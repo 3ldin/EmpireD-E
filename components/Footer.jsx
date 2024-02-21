@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-center mt-8">
-        <p>&copy; 2023 Empire D&E Inc. All rights reserved.</p>
+        <p>&copy; 2018 Empire D&E Inc. All rights reserved.</p>
       </div>
     </footer>
   );
