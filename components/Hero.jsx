@@ -19,7 +19,7 @@ const Hero = () => {
           className='col-span-4 flex items-center justify-center text-center sm:text-center lg:w-full h-full absolute top-0 right-0 left-0'
         >
           <h1 className='text-black text-center mb-4 text-4xl sm:text-5xl lg:text-6xl font-bold backdrop-blur-xl bg-white/30'>
-            Bring Your Dreams to  
+            Bringing Your Dreams to  
             <span className='text-[#15365a]'> Life.</span>
           </h1>
         </motion.div>

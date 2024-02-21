@@ -6,7 +6,6 @@ const Gallery = () => {
     '/images/IMG1.jpeg',
     '/images/IMG7.jpeg',
     '/images/IMG5.jpeg',
-    '/images/IMG3.jpeg',
     '/images/IMG4.jpeg',
     '/images/IMG9.jpeg',
     '/images/IMG24.jpeg',

@@ -4,9 +4,14 @@ import NavLink from './NavLink'
 import { XMarkIcon } from "@heroicons/react/24/solid";
 import { CgMenu } from "react-icons/cg";
 import MenuOverlay from './MenuOverlay';
+import Image from 'next/image';
 
 
 const navLinks = [
+    {
+        title: "Home",
+        path: '/',
+    },
     {
         title: "About",
         path: '/AboutPage',
@@ -27,8 +32,8 @@ const Navbar = () => {
   
     return (
     <nav className='fixed mx-auto border border-transparent top-0 left-0 right-0 z-10 bg-white bg-opacity-100 p-3 drop-shadow-sm'>
-        <div className='flex lg:py-3 flex-wrap items-center justify-between mx-auto px-4 py-4'>
-            <Link href={"/"} className=' md:pl-2'><img src='images/lowreslogo.png' alt='Empire D&E'></img></Link>
+        <div className='flex lg:py-3 flex-wrap items-center justify-between mx-auto px-2  py-4'>
+            <Link href={"/"} className=' md:pl-2'><Image src='/images/highreslogo.PNG' alt='Empire D&E' width={250} height={250}></Image></Link>
             <div className='mobile-menu block md:hidden'>
                 
                     {!navbarOpen ? (
