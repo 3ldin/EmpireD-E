@@ -29,7 +29,7 @@ const Navbar = () => {
     return (
     <nav className='fixed mx-auto border border-transparent top-0 left-0 right-0 z-10 bg-white bg-opacity-100 p-3 drop-shadow-sm'>
         <div className='flex lg:py-3 flex-wrap items-center justify-between mx-auto px-4 py-4'>
-            <Link href={"/"} className=' md:pl-2'><img src='images/lowreslogo.png'></img></Link>
+            <Link href={"/"} className=' md:pl-2'><img src='images/lowreslogo.png' alt='Empire D&E'></img></Link>
             <div className='mobile-menu block md:hidden'>
                 
                     {!navbarOpen ? (

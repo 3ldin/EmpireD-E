@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import Link from 'next/link'; 
 
 const Footer = () => {
   return (
@@ -16,29 +15,27 @@ const Footer = () => {
           <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
           <ul>
             <li>
-              <a href="/" className="hover:text-gray-500 transition duration-300">
-                Home
-              </a>
+              <Link legacyBehavior href="/">
+                <a className="hover:text-gray-500 transition duration-300">Home</a>
+              </Link>
             </li>
             <li>
-              <a href="/AboutPage" className="hover:text-gray-500 transition duration-300">
-                About Us
-              </a>
+              <Link legacyBehavior href="/AboutPage">
+                <a className="hover:text-gray-500 transition duration-300">About</a>
+              </Link>
             </li>
             <li>
-              <a href="/GalleryPage" className="hover:text-gray-500 transition duration-300">
-                Gallery
-              </a>
+              <Link legacyBehavior href="/GalleryPage">
+                <a className="hover:text-gray-500 transition duration-300">Gallery</a>
+              </Link>
             </li>
             <li>
-              <a href="/ContactPage" className="hover:text-gray-500 transition duration-300">
-                Contact
-              </a>
+              <Link legacyBehavior href="/ContactPage">
+                <a className="hover:text-gray-500 transition duration-300">Contact</a>
+              </Link>
             </li>
           </ul>
         </div>
-        
- 
       </div>
       <div className="text-center mt-8">
         <p>&copy; 2023 Empire D&E Inc. All rights reserved.</p>
