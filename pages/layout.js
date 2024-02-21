@@ -1,5 +1,6 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
+import { Root } from 'postcss'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,3 +16,4 @@ export default function RootLayout({ children }) {
     </html>
   )
 }
+
