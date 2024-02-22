@@ -25,11 +25,8 @@ const GalleryPage = () => {
     '/images/IMG7.jpeg',
     '/images/IMG8.jpeg',
     '/images/IMG9.jpeg',
-    
-   
     '/images/IMG13.jpeg',
     '/images/IMG14.jpeg',
-    
     '/images/IMG16.jpeg',
     '/images/IMG17.jpeg',
     '/images/IMG18.jpeg',
@@ -39,7 +36,6 @@ const GalleryPage = () => {
     '/images/IMG22.jpeg',
     '/images/IMG23.jpeg',
     '/images/IMG24.jpeg',
-    
     '/images/IMG25.jpeg',
     '/images/IMG26.jpeg',
     '/images/outside2.jpeg',
@@ -58,7 +54,7 @@ const GalleryPage = () => {
     <div className="container mx-auto pt-10 p-4">
       <Navbar className='' />
       <div className="text-center">
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-10 mb-10 pt-16">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-10 mb-10 pt-20">
           Gallery
         </h1>
       </div>

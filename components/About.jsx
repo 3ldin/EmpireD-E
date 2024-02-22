@@ -11,7 +11,7 @@ import { MdBuild, MdTableBar } from "react-icons/md";
 const About = () => {
   return (
     <section  
-      className='min-h-[calc(100vh-64px)] min-w-[calc(100vw-64px)] w-screen border-double bg-center bg-gradient-to-t from-white via-gray-200 to-white'
+      className='min-h-[calc(100vh-64px)] min-w-[calc(100vw-64px)] w-screen border-double bg-center bg-gradient-to-b from-white via-gray-300 to-white'
     >
       <div className='grid grid-cols-1 lg:grid-cols-6'>
           <div className='lg:col-span-3 flex flex-col items-center lg:items-start  lg:mt-20 lg:ml-20'>
@@ -21,7 +21,7 @@ const About = () => {
               </p>
           </div>
           <div className='lg:col-span-3 lg:max-w-xl lg:mt-20 mx-auto text-center'>
-            <h2 className='text-black mt-10  text-3xl sm:text-3xl lg:text-4xl font-bold p-4 text-decoration-line: overline decoration-[#15365a] '>Services</h2>
+            <h2 className='text-black mt-10  text-3xl sm:text-3xl lg:text-4xl font-bold p-4 text-decoration-line: underline decoration-[#15365a] '>Services</h2>
               <ul className='list-none text-2xl lg:text-3xl text-black lg:leading-10 lg:pt-12 lg:pl-10 ml-4 lg:mt-16 flex flex-col lg:w-screen lg:gap-3'>
                 <li className='flex items-center mt-6 lg:mb-6'><BsFillHouseFill className='mr-4' />Home Renovations</li>
                 <li className='flex items-center mt-6 lg:mb-6'><PiCookingPotFill className='mr-4' />Kitchen Transformations</li>
