@@ -6,22 +6,30 @@ import Footer from '../components/Footer';
 const GalleryPage = () => {
   const images = [
     
-    '/images/ash1.jpeg',
+    
     '/images/outside1.jpeg',
+    '/images/house1.jpeg',
+    '/images/house2.jpeg',
+    '/images/house4.jpeg',
+    '/images/house5.jpeg',
+    '/images/house6.jpeg',
+    '/images/house7.jpeg',
+    '/images/house8.jpeg',
+    '/images/house9.jpeg',
     '/images/IMG1.jpeg',
     '/images/IMG2.jpeg',
     '/images/IMG4.jpeg',
     '/images/IMG5.jpeg',
+    '/images/shower.jpeg',
     '/images/IMG6.jpeg',
     '/images/IMG7.jpeg',
     '/images/IMG8.jpeg',
     '/images/IMG9.jpeg',
-    '/images/IMG10.jpeg',
-    '/images/IMG11.jpeg',
-    '/images/IMG12.jpeg',
+    
+   
     '/images/IMG13.jpeg',
     '/images/IMG14.jpeg',
-    '/images/IMG15.jpeg',
+    
     '/images/IMG16.jpeg',
     '/images/IMG17.jpeg',
     '/images/IMG18.jpeg',
@@ -31,11 +39,11 @@ const GalleryPage = () => {
     '/images/IMG22.jpeg',
     '/images/IMG23.jpeg',
     '/images/IMG24.jpeg',
-    '/images/kitchen.jpeg',
-    '/images/shower.jpeg',
+    
     '/images/IMG25.jpeg',
     '/images/IMG26.jpeg',
     '/images/outside2.jpeg',
+    '/images/ash1.jpeg',
     '/images/IMG28.jpeg',
     '/images/IMG29.jpeg',
     '/images/IMG30.jpeg',

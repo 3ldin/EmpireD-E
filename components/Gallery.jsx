@@ -3,19 +3,14 @@ import Carousel from './Carousel'
 
 const Gallery = () => {
   const imageUrls = [
+    '/images/outside2.jpeg',
+    '/images/IMG30.jpeg',
+    '/images/ash1.jpeg',
     '/images/outside1.jpeg',
     '/images/IMG1.jpeg',
     '/images/IMG7.jpeg',
-    '/images/IMG5.jpeg',
-    '/images/IMG4.jpeg',
-    '/images/IMG9.jpeg',
-    '/images/IMG24.jpeg',
-    '/images/IMG17.jpeg',
-    '/images/IMG22.jpeg',
-    '/images/IMG14.jpeg',
-    '/images/IMG19.jpeg',
-    '/images/IMG20.jpeg',
-    '/images/IMG21.jpeg',
+
+    
   ];
 
   return (
